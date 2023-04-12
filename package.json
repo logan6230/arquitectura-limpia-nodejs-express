@@ -1,0 +1,24 @@
+{
+  "name": "aruitectura-limpia-nodejs-express",
+  "version": "1.0.0",
+  "description": "Proyecto base arquitectura limpia",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Segundo Pantoja",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.2.0",
+    "pg": "^8.10.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.31.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
